@@ -1,44 +1,49 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
-
+## Multi-Modal Transformer Network for Early Liver Tumor Detection Using CT–Ultrasound Fusion Imaging
+The project focuses on developing an intelligent medical image analysis system that utilizes a transformer-based deep learning framework to accurately detect liver tumors at an early stage by fusing Computed Tomography (CT) and Ultrasound imaging modalities, thereby improving diagnostic accuracy and clinical decision-making.
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Multi-Modal Transformer Network for Early Liver Tumor Detection Using CT–Ultrasound Fusion Imaging is a deep learning–based medical diagnostic system designed to assist radiologists in early and accurate liver tumor detection. Traditional liver tumor diagnosis relies heavily on single-modality imaging techniques, which often fail to capture complete tumor characteristics due to noise, low contrast, and limited contextual information.
+
+This project overcomes these limitations by integrating CT and Ultrasound images using a transformer-based attention mechanism. The proposed system employs dual encoders to extract modality-specific features and a cross-modal transformer to fuse anatomical and texture information effectively. By leveraging global contextual learning and attention-based fusion, the system enhances tumor localization, classification accuracy, and segmentation quality.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
-
+- Transformer-based multi-modal fusion architecture
+- Dual-encoder framework for CT and Ultrasound images
+- Cross-modal attention mechanism for effective feature interaction
+- High accuracy in early-stage liver tumor detection
+- Robust tumor segmentation under noisy Ultrasound conditions
+- Scalable and clinically adaptable framework
+- Reduced false positives and false negatives
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Operating System: Requires a 64-bit OS (Windows 10 / Ubuntu) for deep learning framework compatibility.
+* Development Environment: Python 3.8 or later for implementing the deep learning model.
+* Deep Learning Frameworks: TensorFlow / PyTorch for model training and evaluation.
+* Image Processing Libraries: OpenCV and NumPy for preprocessing and image manipulation.
 * Version Control: Implementation of Git for collaborative development and effective code management.
 * IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
+Overall System Architecture of Multi-Modal Transformer Network
+The architecture consists of CT and Ultrasound input layers, dual feature encoders, a transformer-based fusion module, and a classification and segmentation output layer.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/61a971b8-4361-4a15-ae75-78b109e4497c" />
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Tumor Classification Result
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/98e9160d-e870-49f5-8baf-ae29a7a51870" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+#### Output2 - Tumor Segmentation Output
+<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/d5eea9b9-5620-438b-98e9-0f99fb92ec60" />
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
@@ -46,14 +51,17 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The proposed Multi-Modal Transformer Network significantly improves early liver tumor detection accuracy by effectively combining anatomical information from CT scans with texture-rich features from Ultrasound images. The attention-based fusion mechanism enhances robustness against noise and inter-patient variability, leading to reliable and clinically meaningful predictions.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
+This project demonstrates the effectiveness of transformer architectures in medical image fusion and contributes to advancing computer-aided diagnosis systems. It serves as a strong foundation for future research in intelligent healthcare, multi-modal medical imaging, and explainable AI-based diagnostic tools.
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. S. Han et al., “Multi-modal medical image fusion using transformer networks,” IEEE Transactions on Medical Imaging, 2023.
 
+2. J. Ma, Y. Zhang, and Y. Guo, “Attention-based fusion of CT and ultrasound images for liver tumor detection,” Biomedical Signal Processing and Control, 2023.
+
+3. A. Vaswani et al., “Attention is all you need,” NeurIPS, 2017.
+
+4. WHO, “Global Cancer Statistics: Liver Cancer,” World Health Organization, 2023.
 
 
 
